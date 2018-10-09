@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "370829604404",
+    "firebase_url": "https://outfitz-b68bc.firebaseio.com",
+    "project_id": "outfitz-b68bc",
+    "storage_bucket": "outfitz-b68bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370829604404:android:3bf3a80451e6af30",
+        "android_client_info": {
+          "package_name": "com.ci.team16.outfitz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370829604404-i3fu6kunucoqjq27cb2vo19qpea41g7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNt7rgpsWy5X7zcdv8ManQ7V_jOJdA9rY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

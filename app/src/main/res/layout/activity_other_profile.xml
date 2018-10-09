@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ci.team16.outfitz.user_acc">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradientback">
+
+
+
+        <!--<ImageView
+            android:id="@+id/imageView"
+            android:layout_width="94dp"
+            android:layout_height="86dp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/pp" />-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imageView2"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/pp"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:layout_marginTop="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:ems="17"
+            android:inputType="textPersonName"
+            android:hint="Bio" />
+        <!--<TextView
+            android:id="@+id/accountName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:layout_above="@id/editText2"
+            android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
+            android:text="Hello"
+            android:textColor="#000000"
+            android:textSize="20dp" />-->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="145dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>
