@@ -1,1 +1,1 @@
-Social media app revolved around outfits for Android devices
+Android social media app revolved around viewing and sharing outfits.
